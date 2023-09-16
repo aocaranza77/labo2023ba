@@ -1,6 +1,6 @@
 # Experimentos Colaborativos Default
 # Workflow  Training Strategy
-# Para commmit
+# Para commmit 1
 # limpio la memoria
 rm(list = ls(all.names = TRUE)) # remove all objects
 gc(full = TRUE) # garbage collection
