@@ -12,7 +12,7 @@ options(error = function() {
 # primeros pasos, relativamente rapidos
 # source("~/labo2023ba/src/workflow-inicial/611_CA_reparar_dataset_04.r")
 # source("~/labo2023ba/src/workflow-inicial/621_DR_corregir_drifting_04.r")
-# source("~/labo2023ba/src/workflow-inicial/631_FE_historia_03.r")
+# source("~/labo2023ba/src/workflow-inicial/631_FE_historia_04.r")
 source("~/labo2023ba/src/workflow-inicial/641_TS_training_strategy_04.r")
 
 # ultimos pasos, muy lentos
