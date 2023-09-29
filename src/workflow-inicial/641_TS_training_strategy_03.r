@@ -14,7 +14,7 @@ PARAM$experimento <- "TS6414"
 
 PARAM$exp_input <- "FE6310"
 
-# me salteo los meses duros de pandemia, pero llego hasta 201906 en training
+# me salteo los meses duros de pandemia, pero llego hasta 201907 en training
 # entreno en 18 meses
 
 PARAM$future <- c(202109)
