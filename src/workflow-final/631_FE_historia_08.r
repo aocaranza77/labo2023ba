@@ -1,4 +1,4 @@
-# Experimentos Colaborativos Default
+# Experimentos estimacion final
 # Workflow  Feature Engineering historico
 
 # limpio la memoria
@@ -23,31 +23,31 @@ PARAM$exp_input <- "DR6218"
 
 PARAM$lag1 <- TRUE
 PARAM$lag2 <- TRUE
-PARAM$lag3 <- FALSE
+PARAM$lag3 <- TRUE
 
 PARAM$Tendencias1$run <- TRUE
 PARAM$Tendencias1$ventana <- 6
 PARAM$Tendencias1$tendencia <- TRUE
 PARAM$Tendencias1$minimo <- FALSE
 PARAM$Tendencias1$maximo <- FALSE
-PARAM$Tendencias1$promedio <- FALSE
+PARAM$Tendencias1$promedio <- TRUE
 PARAM$Tendencias1$ratioavg <- FALSE
 PARAM$Tendencias1$ratiomax <- FALSE
 
-PARAM$Tendencias2$run <- FALSE
+PARAM$Tendencias2$run <- TRUE
 PARAM$Tendencias2$ventana <- 6
 PARAM$Tendencias2$tendencia <- TRUE
 PARAM$Tendencias2$minimo <- FALSE
-PARAM$Tendencias2$maximo <- FALSE
+PARAM$Tendencias2$maximo <- TRUE
 PARAM$Tendencias2$promedio <- FALSE
 PARAM$Tendencias2$ratioavg <- FALSE
 PARAM$Tendencias2$ratiomax <- FALSE
 
 
 PARAM$RandomForest$run <- TRUE
-PARAM$RandomForest$num.trees <- 20
-PARAM$RandomForest$max.depth <- 4
-PARAM$RandomForest$min.node.size <- 1000
+PARAM$RandomForest$num.trees <- 30
+PARAM$RandomForest$max.depth <- 8
+PARAM$RandomForest$min.node.size <- 800
 PARAM$RandomForest$mtry <- 40
 PARAM$RandomForest$semilla <- 555767 # cambiar por la propia semilla
 
