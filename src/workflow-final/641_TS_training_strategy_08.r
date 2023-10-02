@@ -1,4 +1,4 @@
-# Experimentos Colaborativos Default
+# Experimentos estimacion final
 # Workflow  Training Strategy
 # limpio la memoria
 rm(list = ls(all.names = TRUE)) # remove all objects
