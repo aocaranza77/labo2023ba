@@ -15,7 +15,7 @@ PARAM$experimento <- "TS6418"
 PARAM$exp_input <- "FE6318"
 
 # me salteo los meses duros de pandemia, pero llego hasta 201907 en training
-# entreno en 18 meses
+# entreno en 24 meses
 
 PARAM$future <- c(202109)
 PARAM$final_train <- c(
@@ -35,7 +35,8 @@ PARAM$train$testing <- c(202107)
 
 # Atencion  0.1  de  undersampling de la clase mayoritaria,  los CONTINUA
 # 1.0 significa NO undersampling ,  0.1  es quedarse con el 10% de los CONTINUA
-PARAM$train$undersampling <- 0.1
+# Utilizo un undersamplig de 0.2 para el training
+PARAM$train$undersampling <- 0.2
 
 PARAM$train$semilla <- 555767 # cambiar por su propia semilla  !!!
 
