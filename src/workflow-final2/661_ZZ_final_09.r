@@ -1,4 +1,4 @@
-# Experimentos Colaborativos Default
+# Experimentos Colaborativos final
 
 # Workflow  ZZ proceso final con semillas
 # Este nuevo script fue desarrolado para ayudar a los alumnos en la realizacion
